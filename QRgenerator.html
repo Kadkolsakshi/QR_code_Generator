@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QR Code Generator Website</title>
+        <link rel="icon" type="x-images" href="qr1.jpg">
+        <link rel="stylesheet" href="QRgenerator.css">
+    </head>
+    <body>
+        <div class="container">
+            <img src="qr3.png">
+            <h2>QR Code Generator</h2>
+            <h3>Quickly generate QR codes for text and links</h3>
+        </div>
+        <div class="header">
+            <div class="card">
+                <h2>Enter Your Text</h2><br>
+                <input type="text" class="inputxt" id="textInput" placeholder="Enter Your Text">
+                <button onclick="generate()">Generate QR</button>
+            </div>
+            <div class="sub-card">
+                <img src=" " id="QRImg">
+                <button onclick="clearQR()" id="btn">clear</button>
+            </div>
+        </div>
+        <script src="QRgenerator.js"></script>
+    </body>
+</html>
